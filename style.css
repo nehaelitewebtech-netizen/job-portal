@@ -1,0 +1,650 @@
+.lists ul li{
+    display:inline;
+    padding-left:20px;
+    font-size:20px;
+}
+
+
+.back{
+    background-color:black;
+    color:white;
+    display:flex;
+    text-align:center;
+    padding-top:20px;
+}
+.text{
+    color:white;
+}
+.ici{
+    font-size:20px;
+    color:white;
+}
+.ic i{
+    color:white;
+    font-size:20px;
+}
+.logo{
+    background-color: aliceblue;
+}
+.head{
+    border:2px solid grey;
+}
+button{
+   
+    color: white; 
+    background-color: #45a049;
+    border-radius: 20px; 
+}
+.butn{
+    width:100%;
+}
+.Salary{
+    color:red;
+    padding-right:20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgb(226, 211, 211);
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+.carousel {
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    overflow: hidden; 
+    
+   
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease; 
+    
+}
+
+.carousel-item {
+    min-width: 100%; 
+    box-sizing: border-box; 
+
+}
+
+.carousel img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    object-fit: cover; 
+
+}
+.mid{
+    padding-top: 20px;
+    text-align: center;
+}
+.foot {
+    padding-top: 40PX;
+    background-color: whitesmoke;
+    padding-bottom: 30PX;
+text-align:center; 
+
+}
+.foot1{
+    padding-top: 20PX;
+    background-color: black;
+    color: white;
+    text-align:center;
+
+}
+.card button{
+color: white; 
+    background-color: black; 
+    border-radius: 20px;
+}
+.map iframe{
+    background-color: blue;
+    width:100%;
+    height:350;
+    opacity:0.9;
+   
+}
+
+.psd{
+    background-color: black;
+    color: white;
+
+}
+
+/*job*/
+.map{
+    position:relative;
+}
+.box{
+    position:absolute;
+    bottom:100px;
+    background-color:black;
+    padding: 40px;;
+    width:100%;
+    border-radius:20px 20px 0px 0px;
+    
+    
+}
+.box input{
+    width:500px;
+}
+.content a{
+    color:black;
+    text-decoration:none;
+}
+
+/*candidate*/
+.backimg{
+    background-color:white;
+    opacity:0.8;
+    position:relative;
+}
+.details img{
+position:absolute;
+top:250px;
+left:200px;
+}
+.details h5{
+    position:absolute;
+top:250px;
+left:350px;
+color:white;
+font-size:50px;
+
+}
+.details p{
+    position:absolute;
+top:320px;
+left:350px;
+}
+
+/*candidate 2*/
+.backkimg{
+    background-color:white;
+    opacity:0.8;
+    position:relative;
+}
+.detail2 img{
+position:absolute;
+top:250px;
+left:200px;
+}
+.detail2 h5{
+    position:absolute;
+top:250px;
+left:350px;
+color:white;
+font-size:50px;
+
+}
+.detail2 p{
+    position:absolute;
+top:320px;
+left:350px;
+
+}
+.hoverrr:hover{
+    background-color: aqua;
+    opacity:0.5;
+
+}
+.hoverrr img{
+    width:50%;
+    margin-left:60px;
+    padding-top:10px;;
+}
+
+/*blog*/
+#slider {
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+  }
+  .slide {
+    width: 600px;
+    height: 400px;
+    float: left;
+  }  
+  /*contact*/
+  .map{
+    position:relative;
+  }
+  .con{
+    background-color:white;
+    height:300px;
+    border-radius:20px 20px 0px 0px;
+    position:absolute;
+    top:300px;
+    left:80px;
+
+  }
+  .con h1{
+    text-align: center;
+    padding-top:30px;
+  }
+  .con p{
+    text-align: center;
+    padding-top:30px;
+  }
+
+
+  .forms h1{
+     text-align: center;
+  }
+  .forms{
+    background-color:white;
+    height:300px;
+   
+    position:absolute;
+    top:610px;
+    left:80px;
+    
+    
+  }
+  .forms button{
+    text-align: center;
+    padding: 5px 10px;
+    display: inline-block;
+    }
+    
+  
+  .sign{
+    text-align: center;
+    background-color: rgb(226, 174, 77);
+    height: 700px;
+    padding-top:70px;
+  }
+  .log{
+    text-align: centre;
+    background-color: rgb(46, 148, 199);
+    text-align: center;
+    padding-top:70px;
+    height:700px;
+  }
+  .foot2{
+    padding-top: 300PX;
+    background-color: black;
+    color: white;
+    text-align:center;
+
+  }
+.forms button{
+    width:100%;
+    padding:20px;
+    border-radius:0px 0px 20px 20px;
+}
+
+.demo h1{
+    text-align: centre;
+
+}
+
+
+.carousel {
+    width: 100%; 
+    max-width: 1500px; 
+    margin: 0 auto; 
+    overflow: hidden; 
+    height: 500px;
+    
+   
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease; 
+    
+}
+
+.carousel-item {
+    min-width: 100%; 
+    box-sizing: border-box; 
+
+}
+
+.carousel img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    object-fit: cover; 
+
+}
+input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    font-size: 18px;
+    
+    border: 2px solid #cccccc;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+.price-display {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333333;
+}
+.buy-now-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #45a049; 
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.buy-now-btn:hover {
+    background-color: #45a049;
+}
+.profile-pic {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+}
+.info a {
+    color: #45a049;
+    text-decoration: none;
+}
+.info a:hover {
+    text-decoration: underline;
+}
+/*dropdown*/
+.dropbtn {
+  background-color: #080808;
+  color: white;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.price {
+    font-size: 2em;
+    color: #666;
+}
+.buy-button {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #79c142;
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+.contact {
+    margin-top: 50px;
+    font-size: 1em;
+    color: #333;
+}
+.contact img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+/*login*/
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+}
+
+.login-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+}
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+p {
+    color: #777;
+    margin-bottom: 30px;
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    justify-content: space-between;
+}
+.remember-me label {
+    font-size: 0.9em;
+    color: #777;
+}
+.forgot-password {
+    color: #f08080;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+.login-button {
+    background-color: #79c142;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.2em;
+}
+
+/*blog*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.header h1 {
+    font-size: 3em;
+    color: #333;
+}
+.header p {
+    font-size: 1.2em;
+    color: #777;
+}
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.featured-post, .post {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.featured-post {
+    flex: 0 0 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.featured-post img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.featured-post h2 {
+    margin: 20px 0 10px;
+    font-size: 2em;
+    color: #333;
+}
+.featured-post p {
+    font-size: 1.2em;
+    color: #555;
+}
+.posts-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+.post {
+    flex: 0 0 calc(33.333% - 20px);
+    padding: 20px;
+}
+.post img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.post h3 {
+    margin: 15px 0 10px;
+    font-size: 1.5em;
+    color: #333;
+}
+.post p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.5;
+}
+.post a {
+    color: #79c142;
+    text-decoration: none;
+    font-weight: 500;
+}
+.post a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 992px) {
+    .post {
+        flex: 0 0 calc(50% - 20px);
+    }
+}
+@media (max-width: 768px) {
+    .post {
+        flex: 0 0 100%;
+    }
+}
+
+
+/*emm*/
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+}
+
+.login-containeres {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+}
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+p {
+    color: #777;
+    margin-bottom: 30px;
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    justify-content: space-between;
+}
+.remember-me label {
+    font-size: 0.9em;
+    color: #777;
+}
+.forgot-password {
+    color: #f08080;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+.login-button {
+    background-color: #79c142;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+

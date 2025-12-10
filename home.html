@@ -1,0 +1,420 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--css file link-->
+    <link rel="stylesheet" href="style.css">
+    <!--bootstrap file link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+</head>
+<style>
+  tr:nth-child(even) {
+      background-color:  burlywood;
+    
+  }
+</style>
+<body>
+    <div class="container-fluid back">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-1 col-md-1 col">
+<img src="e:\logo (1).png" width="100%" height="100%">
+                </div>
+                <div class="col-lg-6 col-md-6 col lists">
+                  
+                 <ul>
+                  <li><a href="home.html" style="text-decoration: none; color: inherit;">Home</a></li>
+                    <li><a href="job.html" style="text-decoration: none; color: inherit;">Job</a></li>
+                    <li><a href="submit.html" style="text-decoration: none; color: inherit;">Submit Resume</a></li>
+                    &nbsp;&nbsp;&nbsp;<div class="dropdown">
+                      <button class="dropbtn">Candidates</button>
+                      <div class="dropdown-content">
+                      <a href="allcandidates.html">All Candidate</a>
+                      <a href="candidate details.html">Candidate details</a>
+                      </div>
+                    </div>
+                    <div class="dropdown">
+                      <button class="dropbtn">Pages</button>
+                      <div class="dropdown-content">
+                      <a href="blog.html">Blog</a>
+                      <a href="gallery.html">Gallery</a>
+                      <a href="contact.html">Contact Us</a>
+                      <a href="company1.html">Company</a>
+                      <a href="team.html">Team</a>
+
+                      </div>
+                      </div>
+                 </ul>
+                </div>
+             
+                <div class="col-lg-1 col-md-1 col icons ici">
+                    <i class="bi bi-search"></i>
+                </div>
+                <div class="col-lg-2 col-md-2 col text ic">
+                    <i class="bi bi-person"><a href="login.html" style="text-decoration: none; color: inherit;">&nbsp;&nbsp;Login</i></a>
+                </div>
+                <div class="col-lg-2 col-md-2 col text ic">
+                    <i class="bi bi-file-earmark-lock"><a href="signup.html" style="text-decoration: none; color: inherit;">&nbsp;Signup</i></a>
+                </div>
+                  
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+
+</div>
+
+
+<div class="container-fluid">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" >
+        <div class="carousel-indicators" >
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="c:\Users\dell\Downloads\Most-common-interview.jpg" class="d-block w-150" alt="..." height="15%" , widht = "15%">
+            <div class="carousel-caption d-none d-md-block" >
+             
+             
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="e:\Sam\bootstrap-5.0.2-dist (1)\business-meeting-over-coffee.jpg" class="d-block w-100" alt="..." height="10%" , widht = "10% ">
+            <div class="carousel-caption d-none d-md-block" >
+
+             
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="c:\Users\dell\Downloads\recruitment-virtual-job-interview-1000x667-1.jpeg" class="d-block w-100" alt="..." height="10%" , widht = "10%">
+            <div class="carousel-caption d-none d-md-block">
+              
+              
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </div>
+    
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div class="container-fluid">
+        <div class="container">
+           <h2>Job Listings</h2>
+<table>
+    <tr>
+        <th>Name of the Company</th>
+         <th>Type of Job</th>
+        <th>Location</th>
+        <th>Time</th>
+        <th>Salary</th>
+    </tr>
+     
+    <tr>
+      <td><a href="company1.html" class="card-link"><img src="e:\clientlogo1 (1).png">&nbsp;&nbsp;</td></a>
+      <td>Senior Web Developer</td>
+         <td><i class="bi bi-geo-alt-fill"></i>New Delhi</i></td>
+        <td><button type="button" class="btn btn-success rounded btn-sm">Part Time</button></td>
+        <td>10,000</td>
+    </tr>
+    <tr>
+
+       <td><a href="company2.html" class="card-link"><img src="e:\clientlogo2.png">&nbsp;&nbsp;</td></a>
+        <td>PHP Developer</td>
+        <td><i class="bi bi-geo-alt-fill"></i>indore</td>
+        <td><button type="button" class="btn btn-success rounded btn-sm">Full Time</button></td>
+        <td>90,000</td>
+    </tr>
+    <tr>
+
+      <td><a href="company3.html" class="card-link"><img src="e:\clientlogo3.png"></td></a>
+        <td>CI Developer</td> 
+        <td><i class="bi bi-geo-alt-fill"></i>Bangalore</td>
+        <td><button type="button" class="btn btn-success rounded btn-sm">Full Time</button></td>
+        <td>110,000</td>
+    </tr>
+    <tr>
+
+      <td><a href="company4.html" class="card-link"><img src="e:\clientlogo4.png"></td></a>
+        <td>Web Designer</td>
+        
+        <td><i class="bi bi-geo-alt-fill"></i>Hyderbad</td>
+        <td><button type="button" class="btn btn-success rounded btn-sm">Full Time</button></td>
+        <td>85,000</td>
+    </tr>
+    <tr>
+
+      <td><a href="company5.html" class="card-link"><img src="e:\clientlogo6.png"></td></a>
+        <td>Project Manager</td>
+        
+        <td><i class="bi bi-geo-alt-fill"></i>Dubai</td>
+        <td><button type="button" class="btn btn-success rounded btn-sm">Full Time</button></td>
+        <td>95,000</td>
+    </tr>
+</table><br>
+<a href="job.html"><button class="butn"> View More</button></a>
+            </div>
+            </div>
+      <div class="conatainer-fluid mid">
+        <div class="container">
+          <h1>CAREER HUB</h1>
+          <p>our mission is to empower job seekers and professionals with the tools and resources they need to achieve their career goals. We believe in providing high-quality, actionable content that makes a real difference in our users' lives."</p>
+      
+        </div>
+       </div>
+       <div class="conatainer-fluid ">
+        <div class="container">
+          <div class="row">
+
+          
+        
+          <div class="col-lg-6 col-md-6 col ">
+<h3>HOW IT WORKS</h3>
+
+<p>Creating an effective online job website involves several key components, both for job seekers and employers. For job seekers, the process typically starts with registration and profile creation, where they provide personal information, educational background, work experience, skills, and a profile picture. They can also upload their resume or use a resume builder tool provided by the website. The job search functionality allows them to use filters such as job title, location, industry, and salary range to find relevant job listings, while personalized job recommendations are provided based on their profile and search history. Applying for jobs is made easy through the "Apply" button on job listings, and they can track the status of their applications in their account dashboard. Additional resources such as articles on resume writing, interview tips, career advice, webinars, and workshops are available to enhance their job search skills.</p>
+          </div>
+
+          <div class="col-lg-6 col-md-6 col ">
+            <div class="container-fluid ">
+              <div class="container ">
+                  <div class="row">
+                      
+                      <video width="640" height="360" controls>
+                      <source src="e:\videoblocks-young-businesswoman-leading-creative-meeting-of-women-collaborating-around-table-in-modern-office_szguabpuu__75498b2bdc4fadaf0215ffaaf8000a9c__P360.mp4">
+                      </video>
+                  </div>
+                  </div>
+                  </div>  
+</div>
+</div>
+</div>
+
+<br>
+<br>
+
+<div class="conatainer-fluid mid">
+        <div class="container">
+          <h1>RECENT COMPANIES</h1>
+          <p>A platform dedicated to promoting diversity and inclusion in the workplace, featuring job listings from companies committed to diversity, resources for underrepresented groups, and success storiesHelping professionals transition between careers, offering career assessments, transition plans, and networking opportunities with industry insiders.</p>
+          
+        </div>
+       </div>
+       <br>
+
+
+<!--card-->
+<div class="conatainer-fluid ">
+  <div class="container">
+    <div class="row">
+
+      
+      <div class="col-lg-3 col-md-3 col ">
+        <div class="card" style="width: 18rem;">
+          <img src="c:\Users\dell\Downloads\images (5) (1).jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h3>FREE</h3>
+            <h5>For 1 job listed for 30 days</h5>
+            <p class="card-text">One Time Fee<br>
+              Allows 1 Job Posting<br>
+              Non-Highlighted Post<br>
+              No Featured Jobs<br>
+              Displayed For 5 Days.</p>
+              <a href="choosenow1.html" class="card-link"><button type="button" class="btn btn-success rounded btn-lg">Choose Now</button></a>
+          </div>
+        </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col ">
+          <div class="card" style="width: 18rem;">
+            <img src="c:\Users\dell\Downloads\360_F_217569507_f2VAYrZYFIKKHt6OFjJCpHDBWJEv1J8X (1).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3>START UP</h3>
+              <h5>For 5 job listed for 30 days</h5>
+              <p class="card-text">One Time Fee<br>
+                Allows 5 Job Posting<br>
+                Non-Highlighted Post<br>
+                No Featured Jobs<br>
+                Displayed For 10 Days.</p>
+                <a href="choosenow2.html"><button type="button" class="btn btn-success rounded btn-lg">Choose Now</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col ">
+          <div class="card" style="width: 18rem;">
+            <img src="c:\Users\dell\Downloads\images (3) (1).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3>COMPANY</h3>
+              <h5>For 8 job listed for 30 days</h5>
+              <p class="card-text">One Time Fee<br>
+                Allows 10 Job Posting<br>
+                Non-Highlighted Post<br>
+                 Featured Jobs<br>
+                Displayed For 16 Days.</p>
+                <a href="choosenow3.html"><button type="button" class="btn btn-success rounded btn-lg">Choose Now</button></a>
+            </div>
+          </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col ">
+            <div class="card" style="width: 18rem;">
+              <img src="c:\Users\dell\Downloads\images (4) (1).jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h3>FREE</h3>
+                <h5>For 1 job listed for 30 days</h5>
+                <p class="card-text">One Time Fee<br>
+                  Allows 1 Job Posting<br>
+                  Non-Highlighted Post<br>
+                  No Featured Jobs<br>
+                  Displayed For 5 Days .</p>
+                  <a href="choosenow4.html"><button type="button" class="btn btn-success rounded btn-lg">Choose Now</button></a>
+              </div>
+            </div>
+          
+          </div>
+          </div>
+          </div>
+          </div>
+<br>
+<br>
+<!--article-->
+
+<div class="conatainer-fluid mid">
+  <div class="container">
+    <h1>RECENT ARTICLES</h1>
+    <p>A platform dedicated to promoting diversity and inclusion in the workplace, featuring job listings from companies committed to diversity, resources for underrepresented groups, and success storiesHelping professionals transition between careers, offering career assessments, transition plans, and networking opportunities with industry insiders.</p>
+    
+  </div>
+ </div>
+ <br>
+ <br>
+<div class="conatainer-fluid ">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-4 col ">
+      <div class="card" style="width: 18rem;">
+   
+        <a href="blog.html" class="card-link"><img src="c:\Users\dell\Downloads\milky_way_article_asp_mag_11_2021_bob_coates_photography-1024x1024 (2).jpg" class="card-img-top" alt="..."></a>
+        <div class="card-body">
+          <h5 class="card-title">ARTICAL</h5>
+          <p class="card-text">In the fast-paced digital age, job hunting has moved online, and [JobPortalName] is at the forefront of this transformation. Whether you’re a recent graduate or an experienced professional, our platform offers a wealth of resources and tools to help you find your dream job.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Advanced Job Matching</li>
+          <li class="list-group-item">Comprehensive Profile Creation</li>
+          <li class="list-group-item">Career Resources and Tips</li>
+        </ul>
+        
+      </div>
+</div>
+
+<div class="col-lg-4 col-md-4 col ">
+  <div class="card" style="width: 18rem;">
+    <a href="blog2.html" class="card-link"><img src="c:\Users\dell\Downloads\19-Multi-Book-Reading-1024x1024 (1).jpg" class="card-img-top" alt="..."></a>
+    <div class="card-body">
+      <h5 class="card-title">ARTICAL</h5>
+      <p class="card-text">Finding the right candidate for your company can be a daunting task. [JobPortalName] simplifies this process, connecting employers with a diverse pool of talented professionals. Here’s how our platform can help you build a stellar team<br>team.</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Targeted Job Postings</li>
+      <li class="list-group-item"> Efficient Candidate Screening</li>
+      <li class="list-group-item">Employer Branding</li>
+    </ul>
+    
+  </div>
+</div>
+
+<div class="col-lg-4 col-md-4 col ">
+  <div class="card" style="width: 18rem;">
+    <a href="blog3.html" class="card-link"><img src="c:\Users\dell\Downloads\Resilient-and-Ready-Laundromat-1024x1024 (1).jpg" class="card-img-top" alt="..."></a>
+    <div class="card-body">
+      <h5 class="card-title">ARTICAL</h5>
+      <p class="card-text">The job market can be challenging, but with the right strategies, you can navigate it successfully. [JobPortalName] offers some expert tips to help you stand out and secure your desired positionYour resume and cover letter are your first impressions.<br> candidate</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"> Optimize Your Resume</li>
+      <li class="list-group-item">Leverage Networking Opportunities</li>
+      <li class="list-group-item"> Prepare for Interviews</li>
+      
+    </ul>
+    
+  </div>
+</div>
+</div>
+</div>
+</div>
+<br>
+<br>
+<br>
+  <!--footer-->     
+<div class="conatainer-fluid foot">
+  <div class="container">
+    <h3>Welcome to our Job Board! <br>Whether you're just starting out or looking to advance your career,<br> we have a range of opportunities to suit your skills and ambitions. <br>Explore our current job listings and find your perfect match today.</h3>
+    
+    <a href="contact.html" class="card-link"><button type="button" class="btn btn-success rounded btn-lg">Contact Us</button></a>
+    </div>
+    </div>
+
+    <div class="conatainer-fluid foot1">
+        <h1>Career Hub</h1>
+        <p>Your work is going to fill a large part of your life,<br> and the only way to be truly satisfied is to do what you believe is great work. <br>And the only way to do great work is to love what you do.</p>
+       <br>
+       
+        <h4>Subscribe To Our Newsletter!</h4>
+        <form>
+          <input type="email" placeholder="Your Email" required>
+          <button type="submit">SUBSCRIBE</button>
+          
+        </form>
+        <br>
+        <img src="c:\Users\dell\Downloads\facebook (5) (1).png">
+         <img src="c:\Users\dell\Downloads\instagram (2) (1).png">
+        <img src="c:\Users\dell\Downloads\twitter (2) (1).png">
+        <img src="c:\Users\dell\Downloads\linkedin (1).png">  
+        </div>
+
+    
+
+      
+
+       
+
+              
+      
+           
+   
+          
+            
+        
+      
+                  
+  
+                
+                
+              
+
+   
+
+            
